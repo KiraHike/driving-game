@@ -11,11 +11,7 @@ body {
   height: 100vh;
 }
 
-.container-car {
-  width: 10rem;
-  height: 5rem;
-}
-
-img {
-  max-width: 100%;
+#car {
+  width: 12rem;
+  height: 6rem;
 }
