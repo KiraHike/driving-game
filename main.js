@@ -2,8 +2,8 @@ var $car = document.querySelector('.car');
 
 var car = {
   direction: 'east',
-  xAxis: 90,
-  yAxis: 90
+  xAxis: 0,
+  yAxis: 0
 };
 
 function drive(event) {
@@ -22,4 +22,11 @@ function drive(event) {
   }
 }
 
+function start(event) {
+  car.xAxis += 15;
+  $car.style.left = car.xAxis + 'px';
+}
+
 document.addEventListener('keydown', drive);
+
+setInterval(start, 16);
