@@ -9,9 +9,26 @@ body {
 .container {
   width: 100%;
   height: 100vh;
+  padding: 4rem;
 }
 
-#car {
+.car {
   width: 12rem;
   height: 6rem;
+}
+
+.car.east {
+  transform: rotate(0deg);
+}
+
+.car.south {
+  transform: rotate(90deg);
+}
+
+.car.west {
+  transform: rotate(180deg);
+}
+
+.car.north {
+  transform: rotate(270deg);
 }
