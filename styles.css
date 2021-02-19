@@ -9,13 +9,26 @@ body {
 .container {
   width: 100%;
   height: 100vh;
+  padding: 4rem;
 }
 
-.container-car {
-  width: 10rem;
-  height: 5rem;
+.car {
+  width: 12rem;
+  height: 6rem;
 }
 
-img {
-  max-width: 100%;
+.car.east {
+  transform: rotate(0deg);
+}
+
+.car.south {
+  transform: rotate(90deg);
+}
+
+.car.west {
+  transform: rotate(180deg);
+}
+
+.car.north {
+  transform: rotate(270deg);
 }
